@@ -17,8 +17,8 @@ Translator = function () {
 Translator.prototype = {
 
   detectLanguage: function () {
-    // won't work in IE yet
-    // this.language = window.navigator.language.substr(0, 2)
+    // now it works
+    /this.language = window.navigator.language.substr(0, 2)
     this.language = 'en'
   },
 
